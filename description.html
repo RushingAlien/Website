@@ -31,11 +31,20 @@
   </head>
   <body>
     <!-- awal navbar -->
-    <nav class="navbar navbar-expand-lg bg-light shadow-sm fixed-top">
+    <nav
+      class="navbar navbar-expand-lg bg-light shadow-sm fixed-top"
+      style="
+        border-radius: 10px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+      "
+    >
       <div class="container">
-        <a class="navbar-brand" href="Home.html">Navbar</a>
+        <a class="navbar-brand" href="Home.html">HobiCorner</a>
         <div class="navbar-nav ms-auto order-lg-5 mt-2 flex-row me-3 me-lg-0">
-          <a class="nav-link mx-lg-0 me-2 me-lg-0" href="#"
+          <a class="nav-link mx-lg-0 me-2 me-lg-0" href=""
             ><p><i class="bi bi-heart fs-4"></i></p
           ></a>
           <a class="nav-link mx-lg-0" href="#"
@@ -57,33 +66,26 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto me-lg-4 order-2">
             <a class="nav-link" href="Home.html">Home</a>
-            <a class="nav-link" href="#">About us</a>
+            <a class="nav-link" href="">About us</a>
           </div>
-          <form class="d-flex order-1" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
+          <form class="d-flex order-lg-0" role="search">
+            <div class="input-group">
+              <span class="input-group-text bg-body">
+                <a href="search.html" class="link-dark">
+                  <i class="bi bi-search"></i>
+                </a>
+              </span>
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </div>
           </form>
         </div>
       </div>
     </nav>
-    <!-- <div class="bg-light py-3">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 mb-0">
-            <a class="text-decoration-none" href="Home.html">Home</a>
-            <span class="mx-2 mb-0">/</span>
-            <span class="text-black">Shop</span>
-          </div>
-        </div>
-      </div>
-    </div> -->
     <!-- akhir navbar -->
 
     <!-- awal section -->
@@ -95,13 +97,13 @@
           </div>
         </div>
         <div class="row mb-2 justify-content-between">
-          <div class="col-md-7">
-            <img class="img-description" src="images/art.jpg" alt="" />
+          <div class="col-lg-7">
+            <img class="img-fluid" src="images/art.jpg" alt="" />
           </div>
-          <div class="col-md-4 shadow order-lg-0 order-5">
+          <div class="col-lg-4 shadow order-lg-0 order-5">
             <div class="col mt-3 ms-2">
               <h4>
-                Rp100.000/
+                Rp50.000/
                 <span class="fs-5">jam</span>
               </h4>
               <div class="row mt-3 me-1">
@@ -130,13 +132,13 @@
                 <p>Harga sewa /jam</p>
               </div>
               <div class="col">
-                <p>Rp100.000</p>
+                <p>Rp50.000</p>
               </div>
               <div class="col">
                 <p>Jumlah Jam</p>
               </div>
               <div class="col">
-                <p>2 jam</p>
+                <p>1 jam</p>
               </div>
               <div class="col-12">
                 <hr />
@@ -145,45 +147,42 @@
                 <p>Total Harga</p>
               </div>
               <div class="col">
-                <p>Rp.400.000</p>
+                <p>Rp.50.000</p>
               </div>
             </div>
             <div class="col-12 my-2 mb-4 text-center">
               <a
                 class="btn btn-success"
                 style="--bs-btn-padding-x: 5rem"
-                href=""
+                href="payment.html"
                 role="button"
                 >Ajukan Sewa</a
               >
             </div>
           </div>
-          <div class="col-md-7 mt-2">
-            <div class="row">
-              <div class="col-md-4">
-                <h5>Lorem Ipsum</h5>
-              </div>
+          <div class="col-lg-7 mt-2">
+            <div class="row mb-2">
               <div class="col">
-                <div class="row justify-content-end">
-                  <div class="col-md-3">
-                    <button type="button" class="btn btn-outline-secondary">
-                      <i class="bi bi-heart"></i> Like
-                    </button>
-                  </div>
-                  <div class="col-md-3">
-                    <button type="button" class="btn btn-outline-secondary">
-                      <i class="bi bi-share"></i> Share
-                    </button>
-                  </div>
-                </div>
+                <h3>Art Studio</h3>
+                <h5>Jalan Raya Sumbersari, Malang, Jawa Timur</h5>
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col">
+                <button type="button" class="btn btn-outline-secondary">
+                  <i class="bi bi-heart"></i> Like
+                </button>
+                <button type="button" class="btn btn-outline-secondary">
+                  <i class="bi bi-share"></i> Share
+                </button>
               </div>
             </div>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Temporibus esse assumenda eligendi reprehenderit, ad deserunt,
-              mollitia aperiam pariatur, dolorum optio ab ea quod modi earum
-              odit illum corrupti. Ipsum earum ex sunt perspiciatis officia
-              quasi voluptas repellat culpa commodi ducimus?
+              Art Studio Malang merupakan tempat penyewaan ruangan-ruangan yang
+              dikhususkan untuk melakukan kegiatan melukis, tempat ini
+              menyediakan banyak fasilitas melukis seperti, kuas, cat, kanvas,
+              dan alat melukis lainnya. selain itu, disini juga menyediakan
+              model-model melukis yang bisa dipinjam oleh pengunjung.
             </p>
           </div>
         </div>
@@ -200,11 +199,11 @@
             <img src="" alt="logo" />
           </div>
           <div class="col-md-4 mt-4">
-            <h5>Nama web</h5>
+            <h5>HobbiCorner</h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-              ipsam accusamus sapiente autem deleniti doloremque minus.
-              Consequatur eum harum rem.
+              Hobbi corner merupakan website yang menyediakan informasi tentang
+              rekomendasi tempat-tempat dan tempat penyewaan untuk melakukan
+              kegiatan hobi anda
             </p>
           </div>
           <div class="col-md-3 ms-auto mt-4">

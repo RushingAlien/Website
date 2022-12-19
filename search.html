@@ -31,11 +31,20 @@
   </head>
   <body>
     <!-- awal navbar -->
-    <nav class="navbar navbar-expand-lg bg-light shadow-sm fixed-top">
+    <nav
+      class="navbar navbar-expand-lg bg-light shadow-sm fixed-top"
+      style="
+        border-radius: 10px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+      "
+    >
       <div class="container">
-        <a class="navbar-brand" href="Home.html">Navbar</a>
+        <a class="navbar-brand" href="Home.html">HobbiCorner</a>
         <div class="navbar-nav ms-auto order-lg-5 mt-2 flex-row me-3 me-lg-0">
-          <a class="nav-link mx-lg-0 me-2 me-lg-0" href="#"
+          <a class="nav-link mx-lg-0 me-2 me-lg-0" href=""
             ><p><i class="bi bi-heart fs-4"></i></p
           ></a>
           <a class="nav-link mx-lg-0" href="#"
@@ -57,33 +66,26 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto me-lg-4 order-2">
             <a class="nav-link" href="Home.html">Home</a>
-            <a class="nav-link" href="#">About us</a>
+            <a class="nav-link" href="">About us</a>
           </div>
-          <form class="d-flex order-1" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
+          <form class="d-flex order-lg-0" role="search">
+            <div class="input-group">
+              <span class="input-group-text bg-body">
+                <a href="search.html" class="link-dark">
+                  <i class="bi bi-search"></i>
+                </a>
+              </span>
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </div>
           </form>
         </div>
       </div>
     </nav>
-    <!-- <div class="bg-light py-3">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 mb-0">
-            <a class="text-decoration-none" href="Home.html">Home</a>
-            <span class="mx-2 mb-0">/</span>
-            <span class="text-black">Shop</span>
-          </div>
-        </div> 
-      </div>
-    </div> -->
     <!-- akhir navbar -->
 
     <!-- awal section -->
@@ -95,110 +97,106 @@
           </div>
         </div>
         <div class="row g-4">
-          <div class="col-md-3">
+          <div class="col-md-6 col-lg-3">
             <a
               href="description.html"
               class="text-bg-light"
               style="text-decoration: none"
             >
-              <div class="card shadow">
+              <div class="card shadow-sm">
                 <img src="images/art.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                  <h5><b>Art Studio</b></h5>
+                  <p>Malang</p>
+                  <p class="card-text">Harga Mulai Rp.50.000/jam</p>
                 </div>
               </div>
             </a>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-6 col-lg-3" style="max-height: 20px">
             <a href="" class="text-bg-light" style="text-decoration: none">
-              <div class="card shadow">
+              <div class="card shadow-sm">
                 <img src="images/futsal.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                  <h5><b>Futsal abc</b></h5>
+                  <p>Malang</p>
+                  <p class="card-text">Harga Mulai Rp.60.000/jam</p>
                 </div>
               </div>
             </a>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-6 col-lg-3">
             <a href="" class="text-bg-light" style="text-decoration: none">
-              <div class="card shadow">
+              <div class="card shadow-sm">
                 <img src="images/basket.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                  <h5><b>Lapangan Basket Veteran</b></h5>
+                  <p>Malang</p>
+                  <p class="card-text">Harga Mulai Rp.75.000/jam</p>
                 </div>
               </div>
             </a>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-6 col-lg-3">
             <a href="" class="text-bg-light" style="text-decoration: none">
-              <div class="card shadow">
+              <div class="card shadow-sm">
                 <img src="images/tennis.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                  <h5><b>Lapangan Tennis Budiman</b></h5>
+                  <p>Surabaya</p>
+                  <p class="card-text">Harga Mulai Rp.75.000/jam</p>
                 </div>
               </div>
             </a>
           </div>
-          <div class="col-md-3">
-            <a href="" class="text-bg-light" style="text-decoration: none">
-              <div class="card shadow">
+          <div class="col-md-6 col-lg-3">
+            <a
+              href="description.html"
+              class="text-bg-light"
+              style="text-decoration: none"
+            >
+              <div class="card shadow-sm">
                 <img src="images/art.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                  <h5><b>Art Studio</b></h5>
+                  <p>Malang</p>
+                  <p class="card-text">Harga Mulai Rp.50.000/jam</p>
                 </div>
               </div>
             </a>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-6 col-lg-3" style="max-height: 20px">
             <a href="" class="text-bg-light" style="text-decoration: none">
-              <div class="card shadow">
+              <div class="card shadow-sm">
                 <img src="images/futsal.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                  <h5><b>Futsal abc</b></h5>
+                  <p>Malang</p>
+                  <p class="card-text">Harga Mulai Rp.60.000/jam</p>
                 </div>
               </div>
             </a>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-6 col-lg-3">
             <a href="" class="text-bg-light" style="text-decoration: none">
-              <div class="card shadow">
+              <div class="card shadow-sm">
                 <img src="images/basket.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                  <h5><b>Lapangan Basket Veteran</b></h5>
+                  <p>Malang</p>
+                  <p class="card-text">Harga Mulai Rp.75.000/jam</p>
                 </div>
               </div>
             </a>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-6 col-lg-3">
             <a href="" class="text-bg-light" style="text-decoration: none">
-              <div class="card shadow">
+              <div class="card shadow-sm">
                 <img src="images/tennis.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
+                  <h5><b>Lapangan Tennis Budiman</b></h5>
+                  <p>Surabaya</p>
+                  <p class="card-text">Harga Mulai Rp.75.000/jam</p>
                 </div>
               </div>
             </a>
@@ -217,11 +215,11 @@
             <img src="" alt="logo" />
           </div>
           <div class="col-md-4 mt-4">
-            <h5>Nama web</h5>
+            <h5>HobbiCorner</h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-              ipsam accusamus sapiente autem deleniti doloremque minus.
-              Consequatur eum harum rem.
+              Hobbi corner merupakan website yang menyediakan informasi tentang
+              rekomendasi tempat-tempat dan tempat penyewaan untuk melakukan
+              kegiatan hobi anda
             </p>
           </div>
           <div class="col-md-3 ms-auto mt-4">
